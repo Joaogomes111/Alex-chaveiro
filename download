@@ -1,0 +1,33 @@
+import {
+  Car,
+  Clock,
+  Cpu,
+  Home,
+  KeyRound,
+  Lock,
+  Radio,
+  Wrench,
+  type LucideIcon,
+} from "lucide-react";
+
+const icons: Record<string, LucideIcon> = {
+  car: Car,
+  home: Home,
+  key: KeyRound,
+  chip: Cpu,
+  lock: Lock,
+  remote: Radio,
+  emergency: Clock,
+  tool: Wrench,
+};
+
+type ServiceIconProps = {
+  name: string;
+  className?: string;
+};
+
+export function ServiceIcon({ name, className }: ServiceIconProps) {
+  const Icon = icons[name] ?? KeyRound;
+
+  return <Icon aria-hidden="true" className={className} strokeWidth={1.7} />;
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Cliente Google",
+    "service": "Atendimento emergencial",
+    "text": "Atendimento rápido, profissional e muito cuidadoso. Resolveu a situação com segurança."
+  },
+  {
+    "name": "Cliente Google",
+    "service": "Chave automotiva",
+    "text": "Serviço bem explicado, equipamento moderno e preço justo. Recomendo para chave de carro."
+  },
+  {
+    "name": "Cliente Google",
+    "service": "Abertura residencial",
+    "text": "Chegou rápido e abriu a porta sem danificar a fechadura. Atendimento excelente."
+  }
+]
